@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Liên hệ - DichVuTheUyTin</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="navbar">
+				<div class="logo"><h1>DichVuThe<span>UyTin</span></h1></div>
+				<div class="nav-menu">
+					<ul class="nav-list">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="ve-chung-toi.html">Về chúng tôi</a></li>
+						<li><a href="dich-vu.html">Dịch vụ</a></li>
+						<li><a href="tin-tuc.html">Tin tức</a></li>
+						<li><a href="lien-he.html">Liên hệ</a></li>
+					</ul>
+				</div>
+				<div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+			</nav>
+		</div>
+	</header>
+
+	<section class="hero hero-full" style="background-image:url('assets/CleanShot 2025-09-07 at 14.02.38.png');">
+		<div class="hero-overlay"></div>
+		<div class="container">
+			<div class="hero-content">
+				<div class="hero-text">
+					<h2 class="hero-title">Liên hệ</h2>
+					<p class="hero-description">Liên hệ ngay để được tư vấn miễn phí 24/7.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact">
+		<div class="container">
+			<div class="section-header">
+				<h2>Liên hệ với chúng tôi</h2>
+				<div class="section-divider"></div>
+			</div>
+			<div class="contact-content">
+				<div class="contact-info">
+					<div class="contact-phone">
+						<a href="tel:0909378408" class="btn btn-primary btn-lg">
+							<i class="fas fa-phone-alt"></i> 0909 378 408
+						</a>
+					</div>
+					<div class="contact-locations">
+						<h3>📍 Khu vực phục vụ toàn Hà Nội:</h3>
+						<ul class="locations-list">
+							<li><i class="fas fa-map-marker-alt"></i> <strong>Cầu Giấy:</strong> Tận nơi trong 10-15 phút</li>
+							<li><i class="fas fa-map-marker-alt"></i> <strong>Đống Đa:</strong> Phục vụ tận nơi nhanh chóng</li>
+							<li><i class="fas fa-map-marker-alt"></i> <strong>Hoàn Kiếm:</strong> Trung tâm thành phố</li>
+							<li><i class="fas fa-map-marker-alt"></i> <strong>Ba Đình:</strong> Khu vực trung tâm chính trị</li>
+							<li><i class="fas fa-map-marker-alt"></i> <strong>Hà Đông, Long Biên:</strong> Và tất cả các quận khác</li>
+						</ul>
+					</div>
+				</div>
+				<div class="contact-form">
+					<h3>Yêu cầu tư vấn và gọi lại</h3>
+					<form id="contactForm">
+						<div class="form-group">
+							<label for="name">Họ và tên</label>
+							<input type="text" id="name" name="name" placeholder="Họ và tên">
+						</div>
+						<div class="form-group">
+							<label for="phone">Số điện thoại</label>
+							<input type="tel" id="phone" name="phone" placeholder="Số điện thoại" required>
+						</div>
+						<button type="submit" class="btn btn-submit">
+							<i class="fas fa-paper-plane"></i> Gửi Ngay
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-logo">
+					<h2>DichVuThe<span>UyTin</span></h2>
+					<p>UY TÍN #1 HÀ NỘI - Phí thấp nhất - Phục vụ tốt nhất</p>
+				</div>
+				<div class="footer-contact">
+					<p><i class="fas fa-phone-alt"></i> <strong>0909 378 408</strong></p>
+					<p><i class="fas fa-map-marker-alt"></i> Toàn Hà Nội</p>
+				</div>
+			</div>
+			<div class="footer-bottom"><p>&copy; 2024 DichVuTheUyTin.</p></div>
+		</div>
+	</footer>
+
+	<script>
+		document.querySelector('.hamburger').addEventListener('click', function(){
+			document.querySelector('.nav-menu').classList.toggle('active');
+			document.querySelector('.hamburger').classList.toggle('active');
+		});
+	</script>
+</body>
+</html> 

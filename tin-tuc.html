@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tin tức - DichVuTheUyTin</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="navbar">
+				<div class="logo"><h1>DichVuThe<span>UyTin</span></h1></div>
+				<div class="nav-menu">
+					<ul class="nav-list">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="ve-chung-toi.html">Về chúng tôi</a></li>
+						<li><a href="dich-vu.html">Dịch vụ</a></li>
+						<li><a href="tin-tuc.html">Tin tức</a></li>
+						<li><a href="lien-he.html">Liên hệ</a></li>
+					</ul>
+				</div>
+				<div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+			</nav>
+		</div>
+	</header>
+
+	<section class="hero hero-full" style="background-image:url('assets/CleanShot 2025-09-07 at 14.02.38.png');">
+		<div class="hero-overlay"></div>
+		<div class="container">
+			<div class="hero-content">
+				<div class="hero-text">
+					<h2 class="hero-title">Tin tức</h2>
+					<p class="hero-description">Cập nhật thông tin hữu ích về thẻ tín dụng và ưu đãi ngân hàng.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="news">
+		<div class="container">
+			<div class="section-header">
+				<h2>Bài viết mới</h2>
+				<div class="section-divider"></div>
+				<p style="color: var(--text-light);">Đang cập nhật...</p>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-logo">
+					<h2>DichVuThe<span>UyTin</span></h2>
+					<p>UY TÍN #1 HÀ NỘI - Phí thấp nhất - Phục vụ tốt nhất</p>
+				</div>
+				<div class="footer-contact">
+					<p><i class="fas fa-phone-alt"></i> <strong>0909 378 408</strong></p>
+					<p><i class="fas fa-map-marker-alt"></i> Toàn Hà Nội</p>
+				</div>
+			</div>
+			<div class="footer-bottom"><p>&copy; 2024 DichVuTheUyTin.</p></div>
+		</div>
+	</footer>
+
+	<script>
+		document.querySelector('.hamburger').addEventListener('click', function(){
+			document.querySelector('.nav-menu').classList.toggle('active');
+			document.querySelector('.hamburger').classList.toggle('active');
+		});
+	</script>
+</body>
+</html> 
